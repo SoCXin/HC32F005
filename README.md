@@ -10,7 +10,7 @@
 [HC32F005](http://www.ti.com.cn/product/cn/HC32F005) 为Low Pin宽电压工作范围的MCU，12位1Msps采样SARADC内置运放
 
 
-[![sites](docs/HC32F005.png)](https://www.hdsc.com.cn/Category83-1499)
+[![sites](docs/HC32F005.png)](https://www.hdsc.com.cn/Category83-1433)
 
 #### 关键特性
 

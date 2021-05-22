@@ -53,12 +53,12 @@ PERIFLIB_SOURCES =
 #######################################
 # BINPATH = e:/gcc-arm-none-eabi-7-2018-q2-update-win32/bin
 PREFIX = arm-none-eabi-
-CC = $(PREFIX)gcc.exe
-AS = $(PREFIX)gcc.exe -x assembler-with-cpp
-CP = $(PREFIX)objcopy.exe
-AR = $(PREFIX)ar.exe
-SZ = $(PREFIX)size.exe
-GDB = $(PREFIX)gdb.exe
+CC = $(PREFIX)gcc
+AS = $(PREFIX)gcc -x assembler-with-cpp
+CP = $(PREFIX)objcopy
+AR = $(PREFIX)ar
+SZ = $(PREFIX)size
+GDB = $(PREFIX)gdb
 HEX = $(CP) -O ihex
 BIN = $(CP) -O binary -S
 
