@@ -1,5 +1,5 @@
 #include "hc32f00x_rstctl.h"
-#include "hc32f005.h"
+#include "HC32F005.h"
 
 void rstctl_deinit() { M0P_RESET->RESET_FLAG = 0x00000000; }
 

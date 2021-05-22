@@ -1,5 +1,5 @@
 #include "hc32f00x_sysctl.h"
-#include "hc32f005.h"
+#include "HC32F005.h"
 
 void sysctl_0_1_we() {
     M0P_CLOCK->SYSCTRL2 = 0x5a5a;

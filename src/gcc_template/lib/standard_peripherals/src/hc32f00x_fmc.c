@@ -1,5 +1,5 @@
 #include "hc32f00x_fmc.h"
-#include "hc32f005.h"
+#include "HC32F005.h"
 
 void fmc_we() {
     M0P_FLASH->BYPASS = 0x5a5a;

@@ -1,5 +1,5 @@
 #include "hc32f00x_basetimer.h"
-#include "hc32f005.h"
+#include "HC32F005.h"
 
 void basetimer_deinit(M0P_BT_TypeDef *timer) {
     timer->ARR = 0;

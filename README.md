@@ -2,6 +2,8 @@
 
 [![sites](http://182.61.61.133/link/resources/SoC.png)](http://www.SoC.Xin)
 
+[![Build Status](https://github.com/SoCXin/HC32F005/workflows/src/badge.svg)](https://github.com/SoCXin/HC32F005/actions/workflows/src.yml)
+
 * [hdsc](https://www.hdsc.com.cn/)：[Cortex-M0](https://github.com/SoCXin/Cortex)
 * [Level](https://github.com/SoCXin/Level) ：32MHz * 0.95DMIPS/MHz
 

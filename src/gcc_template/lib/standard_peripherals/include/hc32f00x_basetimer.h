@@ -1,7 +1,7 @@
 #if !defined(__HC32F00X_BASETIMER_H__)
 #define __HC32F00X_BASETIMER_H__
 
-#include "hc32f005.h"
+#include "HC32F005.h"
 #include <stdbool.h>
 #include <stdint.h>
 

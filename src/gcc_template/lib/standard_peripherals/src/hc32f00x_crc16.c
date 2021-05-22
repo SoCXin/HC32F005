@@ -1,5 +1,5 @@
 #include "hc32f00x_crc16.h"
-#include "hc32f005.h"
+#include "HC32F005.h"
 
 void crc16_deinit() { M0P_CRC->RESULT = 0x0000ffff; }
 
