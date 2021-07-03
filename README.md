@@ -9,22 +9,16 @@
 
 ## [简介](https://github.com/SoCXin/HC32F005/wiki)
 
-[HC32F005](http://www.ti.com.cn/product/cn/HC32F005) 为Low Pin宽电压工作范围的MCU，12位1Msps采样SARADC内置运放
+[HC32F005](https://github.com/SoCXin/HC32F005) 为Low Pin宽电压工作范围的MCU，12位1Msps采样SARADC内置运放
 
 
 [![sites](docs/HC32F005.png)](https://www.hdsc.com.cn/Category83-1433)
 
-#### 关键特性
+### 关键特性
 
 * 宽电压1.8～5.5V
 * 集成6位DAC和可编程基准输入的2路电压比较器VC
 
-#### 封装规格
-
-* TSSOP20
-* SOP20
-* QFN20
-* QFN24
 
 ### [资源收录](https://github.com/SoCXin)
 
@@ -36,4 +30,11 @@
 
 [HC32F003](https://github.com/SoCXin/HC32F005),[HC32F005](https://github.com/SoCXin/HC32F005),[HC32L110](https://github.com/SoCXin/HC32L110) 规格类似，HC32L110 拥有 RTC 外设
 
-###  [探索芯世界 www.SoC.xin](http://www.SoC.Xin)
+
+* TSSOP20
+* SOP20
+* QFN20
+* QFN24
+[![sites](docs/test.png)](https://www.hdsc.com.cn/Category83-1433)
+[![sites](docs/test.jpg)](https://www.hdsc.com.cn/Category83-1433)
+### [探索芯世界 www.SoC.xin](http://www.SoC.Xin)

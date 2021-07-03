@@ -10,13 +10,13 @@
       <TargetName>gt_cnt_Release</TargetName>
       <ToolsetNumber>0x4</ToolsetNumber>
       <ToolsetName>ARM-ADS</ToolsetName>
-      <pCCUsed>6100001::V6.10.1::.\ARMCLANG</pCCUsed>
+      <pCCUsed>6160000::V6.16::ARMCLANG</pCCUsed>
       <uAC6>1</uAC6>
       <TargetOption>
         <TargetCommonOption>
           <Device>ARMCM0P</Device>
           <Vendor>ARM</Vendor>
-          <PackID>ARM.CMSIS.5.4.0</PackID>
+          <PackID>ARM.CMSIS.5.7.0</PackID>
           <PackURL>http://www.keil.com/pack/</PackURL>
           <Cpu>IROM(0x00000000,0x8000) IRAM(0x20000000,0x1000) CPUTYPE("Cortex-M0+") CLOCK(32000000) ESEL ELITTLE</Cpu>
           <FlashUtilSpec></FlashUtilSpec>
@@ -185,6 +185,7 @@
             <uocXRam>0</uocXRam>
             <RvdsVP>0</RvdsVP>
             <RvdsMve>0</RvdsMve>
+            <RvdsCdeCp>0</RvdsCdeCp>
             <hadIRAM2>0</hadIRAM2>
             <hadIROM2>0</hadIROM2>
             <StupSel>8</StupSel>
@@ -351,7 +352,7 @@
             <NoWarn>0</NoWarn>
             <uSurpInc>0</uSurpInc>
             <useXO>0</useXO>
-            <uClangAs>0</uClangAs>
+            <ClangAsOpt>4</ClangAsOpt>
             <VariousControls>
               <MiscControls></MiscControls>
               <Define></Define>
@@ -423,15 +424,20 @@
               <FilePath>..\..\..\..\driver\src\sysctrl.c</FilePath>
             </File>
             <File>
-<FileName>bt.c</FileName>
-<FileType>1</FileType><FilePath>..\..\..\..\driver\src\bt.c</FilePath></File>
-<File>
-<FileName>lpm.c</FileName>
-<FileType>1</FileType><FilePath>..\..\..\..\driver\src\lpm.c</FilePath></File>
-<File>
-<FileName>gpio.c</FileName>
-<FileType>1</FileType><FilePath>..\..\..\..\driver\src\gpio.c</FilePath></File>
-                 
+              <FileName>bt.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\..\driver\src\bt.c</FilePath>
+            </File>
+            <File>
+              <FileName>lpm.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\..\driver\src\lpm.c</FilePath>
+            </File>
+            <File>
+              <FileName>gpio.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\..\driver\src\gpio.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>

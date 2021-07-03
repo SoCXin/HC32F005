@@ -127,6 +127,12 @@ int32_t main(void)
 				Uart_SendDataPoll(M0P_UART1,u8RxData[1]);
 			}
 		}
+        ///< LED点亮
+        Gpio_WriteOutputIO(STK_LED_PORT, STK_LED_PIN, FALSE);
+        delay1ms(300);
+        ///< LED关闭
+        Gpio_WriteOutputIO(STK_LED_PORT, STK_LED_PIN, TRUE);
+        delay1ms(300);
 	}
 }
 
@@ -162,6 +168,15 @@ static void App_PortInit(void)
     stcGpioCfg.enDir = GpioDirIn;
     Gpio_Init(GpioPort3, GpioPin6, &stcGpioCfg);
     Gpio_SetAfMode(GpioPort3, GpioPin6, GpioAf1);          //配置P36 端口为URART1_RX
+
+    ///< 端口方向配置->输出(其它参数与以上（输入）配置参数一致)
+    stcGpioCfg.enDir = GpioDirOut;
+    stcGpioCfg.enPu = GpioPuDisable;
+    stcGpioCfg.enPd = GpioPdEnable;
+    ///< LED关闭
+    Gpio_WriteOutputIO(STK_LED_PORT, STK_LED_PIN, FALSE);
+    ///< GPIO IO LED端口初始化
+    Gpio_Init(STK_LED_PORT, STK_LED_PIN, &stcGpioCfg);
 }
 
 static void _UartBaudCfg(void)

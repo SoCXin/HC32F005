@@ -63,8 +63,7 @@ uint32_t SystemCoreClock;
 void SystemInit(void) {
     sysctl_rch_config(RCH_TRIM_4M);
     sysctl_rch_enable();
-    while (!sysctl_rch_stable())
-        ;
+    while (!sysctl_rch_stable());
     sysctl_system_clock_config(SYS_CLK_SRC_RCH);
     SystemCoreClock = 4000000;
     sysctl_hclk_config(HCLK_SYS_CLK_DIV_1);
