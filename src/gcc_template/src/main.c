@@ -16,8 +16,9 @@ void idle_task(void *param) {
     }
 }
 
-int main(void) {
-    sysctl_peri_clock_enable(PERI_CLK_GPIO);
+int main(void)
+{
+    // sysctl_peri_clock_enable(PERI_CLK_GPIO);
     xTaskCreate(idle_task, "idle_task", configMINIMAL_STACK_SIZE, 0, 0, 0);
     vTaskStartScheduler();
 }
