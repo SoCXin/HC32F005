@@ -1,41 +1,37 @@
 {
-    "name":"HC32F005",
-    "series":["HC32F005C6PA","HC32F005C6PB","HC32F003C4PB"],
     "type":"MCU",
-    "Core":"Cortex-M0",
-    "Freq":"32MHz",
-    "description":"hdsc Cortex-M0 MCU",
-    "peripheral": ["ADC","IIC","UART","SPI","LDO","PWM"],
-    "package":["QFN20","SOP20","TSSOP20"],
-    "SRAM":4,
-    "Flash":32,
-    "DATA":128,
-    "UART": {
-        "num": 2,
-        "FIFO": 16,
-        "ISO7816": 1,
-        "more":["BUAD","LIN","IrDA"]
-    },
-    "ADC": {
+    "name":"HC32F005",
+    "title": "HDSC MCU HC32F005",
+    "description":"HDSC Cortex-M0 HC32F005 MCU",
+    "version":"1.0.0",
+    "Core": {
         "num": 1,
-        "channel": 8,
-        "resolution": 12,
-        "rate": 2400
+        "type":"Cortex-M0",
+        "Freq": 32,
+        "DMIPS": 100,
+        "CoreMark": 160
     },
-    "TIM": {
-        "resolution":[16,16,16],
-        "rate": 1024
+    "manufacturer": {
+        "vendor":"WCH",
+        "homepage": "https://www.hdsc.com.cn/Category83-1433"
     },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/SoCXin/HC32F005.git"
+    },
+    "series":["HC32F005C6PA","HC32F005C6PB","HC32F003C4PB"],
+    "package":["QFN24","QFN20","SOP20","TSSOP20"],
+    "peripheral": ["TIM","ADC","USB","UART","SPI","LDO","PWM"],
+    "price":[4,8],
     "PWR": {
         "VDD": [2800,5000],
         "Ivdd": 3.5,
         "LDO": [5000,3300],
         "rate": 1024
     },
-    "PWM": {
-        "num": 2,
-        "resolution": 8,
-        "rate": 256
+    "EMC": {
+        "EFT": 2000,
+        "ESD": 4000
     },
     "upload": {
         "ISP": true,
@@ -43,8 +39,13 @@
         "SWD": true,
         "speed": 115200
     },
-    "vendor":"nuvoton",
-    "url":"http://www.SoC.xin/HC32F005",
-    "repo":"https://github.com/SoCXin/HC32F005",
-    "version":"1.0.0"
+    "keywords": [
+        "dev-platform",
+        "ARM",
+        "Cortex-M",
+        "HDSC",
+        "HC32F005",
+        "DAC","SDIO","CAN","I2C","RTC","SPI",
+        "3.6V","1.8V"
+    ]
 }

@@ -5,11 +5,11 @@
 [![Build Status](https://github.com/SoCXin/HC32F005/workflows/src/badge.svg)](https://github.com/SoCXin/HC32F005/actions/workflows/src.yml)
 
 * [hdsc](https://www.hdsc.com.cn/)：[Cortex-M0](https://github.com/SoCXin/Cortex)
-* [Level](https://github.com/SoCXin/Level) ：32MHz * 0.95DMIPS/MHz
+* [L2R2](https://github.com/SoCXin/Level) ：32 MHz x 0.94 DMIPS/MHz, [2.46 CoreMark/MHz](https://www.eembc.org/coremark/scores.php)
 
 ## [简介](https://github.com/SoCXin/HC32F005/wiki)
 
-[HC32F005](https://github.com/SoCXin/HC32F005) 为Low Pin宽电压工作范围的MCU，12位1Msps采样SARADC内置运放
+[HC32F005](https://github.com/SoCXin/HC32F005) 为小封装高性价比MCU，12位1Msps采样SARADC，内置运放
 
 
 [![sites](docs/HC32F005.png)](https://www.hdsc.com.cn/Category83-1433)
@@ -22,9 +22,10 @@
 
 ### [资源收录](https://github.com/SoCXin)
 
-* [参考文档](docs/)
 * [参考资源](src/)
+* [参考文档](docs/)
 * [参考工程](project/)
+
 
 ### [选型建议](https://github.com/SoCXin)
 
@@ -32,9 +33,11 @@
 
 
 * TSSOP20
-* SOP20
 * QFN20
 * QFN24
-[![sites](docs/test.png)](https://www.hdsc.com.cn/Category83-1433)
+
 [![sites](docs/test.jpg)](https://www.hdsc.com.cn/Category83-1433)
+[![sites](docs/test.png)](https://www.hdsc.com.cn/Category83-1433)
+
+
 ### [探索芯世界 www.SoC.xin](http://www.SoC.Xin)

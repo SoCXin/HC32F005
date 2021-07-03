@@ -4,3 +4,9 @@
 *.out
 *.o
 ~$*
+output
+RTE
+*uvguix*
+*.scvd
+settings
+*.tmp
